@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  nav ul {
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  nav li {
+    margin-right: 30px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .search-bar img {
+  width: 18px;
+  height: 18px;
+  }
+
+.user-actions img {
+  width: 20px;
+  height: 20px;
+}
+
+
+  .user-actions a {
+    margin-left: 20px;
+  }
+  
+  /* Hero section styles */
+  .vidcont {
+    margin-bottom: 50px;
+  }
+  
+  .vidcont img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  /* App promotion styles
